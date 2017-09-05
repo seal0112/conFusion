@@ -73,3 +73,19 @@ body {
 	right: 0;
 	bottom: 0;
 }
+
+.modal {
+	.modal-header {
+		background-color: $background-dark;
+		color: floralwhite;
+	}
+	button.close {
+		color: floralwhite;
+	}
+	.modal-body {
+		background-color: $background-pale;
+	}
+	.modal-footer {
+		background-color: $background-light;
+	}
+}
